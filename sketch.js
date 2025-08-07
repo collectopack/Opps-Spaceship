@@ -196,7 +196,7 @@ function handleInput() {
 class Spaceship {
   constructor() {
     this.x = width / 2;
-    this.y = height - 1270 * scaleFactor;
+    this.y = height - 240 * scaleFactor;
     this.size = 80 * scaleFactor;
   }
   update() {
@@ -328,6 +328,7 @@ class Star {
 
 function resetGame() {
   spaceship = new Spaceship();
+  spaceship.y = height - 240 * scaleFactor; // 👈 Force new Y position
   bullets = [];
   enemies = [];
   explosions = [];
