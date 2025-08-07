@@ -328,7 +328,7 @@ class Star {
 
 function resetGame() {
   spaceship = new Spaceship();
-  spaceship.y = height - 140 * scaleFactor; // 👈 Force new Y position
+  spaceship.y = height - 100 * scaleFactor; // 👈 Force new Y position
   bullets = [];
   enemies = [];
   explosions = [];
