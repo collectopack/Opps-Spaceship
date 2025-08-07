@@ -196,7 +196,7 @@ function handleInput() {
 class Spaceship {
   constructor() {
     this.x = width / 2;
-    this.y = height - 240 * scaleFactor;
+    this.y = height - 130 * scaleFactor;
     this.size = 80 * scaleFactor;
   }
   update() {
